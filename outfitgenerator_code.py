@@ -33,7 +33,7 @@ def find_outfit(temp, condition):
         if temp > 35:
             return "Too warm for Snow! Check the Weather Again!!"
         else:
-            final_outfit[0] = "Heavy Coat"
+            final_outfit[0] = "Snow Coat"
             final_outfit[2] = "Snow Boots"
 
     message = "Here is your Fit --> "
