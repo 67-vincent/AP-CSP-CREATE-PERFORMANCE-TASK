@@ -35,7 +35,7 @@ def find_outfit(temp, condition): # outfit finder function with parameters on te
         final_outfit[0] = "Rain Jacket" # the final outfit top changes to a rain jacket
         final_outfit[2] = "Rain Boots" # teh final outfit shoes change to rain boots
     elif condition =="Snowy": # if not sunny or rainy, and it is snowy
-        if temp >= 35: # does not work if snow is clicked with more than 35 degrees outside
+        if temp >= 40: # does not work if snow is clicked with more than 35 degrees outside
             return "Too warm for Snow! Check the Weather Again!!"
         else: # if less than 32, then outfit gives snow coat and snow boots
             final_outfit[0] = "Snow Coat" # outfit top changes to heavy coat despite whatever it is
