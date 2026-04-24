@@ -30,8 +30,11 @@ def find_outfit(temp, condition):
         final_outfit[0] = "Rain Jacket"
         final_outfit[2] = "Rain Boots"
     elif condition =="Snowy":
-        final_outfit[0] = "Heavy Coat"
-        final_outfit[2] = "Snow Boots"
+        if temp > 35:
+            return "Too warm for Snow! Check the Weather Again!!"
+        else:
+            final_outfit[0] = "Heavy Coat"
+            final_outfit[2] = "Snow Boots"
 
     message = "Here is your Fit --> "
     for i in range (len(final_outfit)):
