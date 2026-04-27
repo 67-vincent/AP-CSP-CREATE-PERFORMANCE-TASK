@@ -40,7 +40,7 @@ def find_outfit(temp, condition): # outfit finder function with parameters on te
         if temp >= 35: # does not work if snow is clicked with more than 35 degrees outside
             return "Too warm for Snow! Check the Weather Again!!"
         else: # if less than 32, then outfit gives snow coat and snow boots
-            final_outfit[0] = "Snow Coat" # outfit top changes to heavy coat despite whatever it is
+            final_outfit[0] = "Snow Coat" # outfit top changes to snow coat despite whatever it is
             final_outfit[2] = "Snow Boots" # outfit shoes change to the snowboots
 # Andrew Wang
     message = "Here is your Fit --> " # the final message output that is always there
