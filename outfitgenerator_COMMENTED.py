@@ -67,7 +67,7 @@ dropdown = tk.OptionMenu(root, weather, "Sunny", "Rainy", "Snowy") # other dropd
 dropdown.config(bg="SteelBlue2", font = ("Comic Sans MS", 10)) # dropdown configurations
 dropdown.pack(pady=10) # packs
 # end co creatiion with Gemini AI
-# Vincent Alberico
+# Andrew Wang
 tk.Button(root, text= "Press to make your fit ", command = fitgenerator, bg = "green2", fg = "black", font = ("Comic Sans MS", 12)).pack(pady=20) # fit generator button
 output = tk.Label(root, text = "", font = ("Comic Sans MS", 10), bg="SteelBlue2") # configuration of the output text
 output.pack()
